@@ -424,9 +424,9 @@ export interface SourceComparison {
     savingsInEth?: BigNumber;
 }
 
-export enum AffiliateFeeType { 
+export enum AffiliateFeeType {
     PercentageFee,
-    PositiveSlippageFee
+    PositiveSlippageFee,
 }
 
 export interface AffiliateFee {
